@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Secret About me</title>
+		<link rel="stylesheet" href="design.css" />
+	</head>
+	<body>
+		<div class="grandparent--container">
+			<div class="parent--hint--container">
+				<div class="parent--title">
+					Hint it's the Food I always eat, and my nickname.
+				</div>
+			</div>
+
+			<div class="parent--container">
+				<p class="child--p">Secrets</p>
+
+				<form action="/identify" method="post">
+					<label for="username1" class="username1">Username: </label>
+					<input
+						class="username"
+						type="text"
+						name="username"
+						placeholder="username"
+						required />
+
+					<label for="Password" class="password1">Password</label>
+					<input
+						type="password"
+						name="password"
+						placeholder="Password"
+						class="password" />
+					<input type="submit" value="Submit" class="submit" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

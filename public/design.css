@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lobster&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	height: 150vh;
+	background-image: url("pictures/cover.jpg");
+	background-size: fill;
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.grandparent--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.parent--container {
+	position: relative;
+	top: 10rem;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px;
+	background-color: #202020;
+	border-radius: 30px;
+	transition: all 0.4s;
+}
+
+.parent--container:hover {
+	scale: 1.1;
+	box-shadow: 0 70px 63px -63px #000000;
+}
+
+.parent--container > p {
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.submit {
+	margin-top: 30px;
+	background-color: khaki;
+	color: rgb(11, 11, 11);
+	border: none;
+	padding: 15px;
+	border-radius: 50px;
+	font-weight: bold;
+}
+
+.submit:active {
+	cursor: pointer;
+}
+
+.username {
+	padding: 15px;
+	margin-top: 2px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	transition: all 0.1s;
+	overflow: hidden;
+}
+
+.username:focus {
+	border-bottom: 3px solid khaki;
+	cursor: pointer;
+}
+
+.username::placeholder {
+	font-size: 15px;
+	padding: 1px;
+	opacity: 0.01px;
+	transition: all 0.1s;
+	font-size: 12px;
+}
+
+.username1 {
+	position: relative;
+	right: 5px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.password {
+	padding: 15px;
+	margin-top: 2px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	transition: all 0.1s;
+	overflow: hidden;
+}
+
+.password:focus {
+	border-bottom: 3px solid khaki;
+	cursor: pointer;
+}
+
+.password::placeholder {
+	font-size: 15px;
+	padding: 1px;
+	opacity: 0.01px;
+	transition: all 0.1s;
+	font-size: 12px;
+}
+
+.password1 {
+	position: relative;
+	right: 5px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.password1:hover {
+	cursor: pointer;
+	visibility: visible;
+}
+/* hint class for password */
+
+.parent--hint--container {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	position: relative;
+	bottom: 8rem;
+	background-color: rgb(11, 11, 11);
+	color: white;
+	padding: 3px 5px 3px 5px;
+	border-radius: 5px;
+	transition: all 0.4s;
+}
+
+.parent--hint--container:hover {
+	scale: 1.1;
+	box-shadow: 0 70px 63px -63px #000000;
+	background-color: white;
+	color: #202020;
+	cursor: pointer;
+}
