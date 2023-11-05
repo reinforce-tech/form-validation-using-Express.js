@@ -1,4 +1,4 @@
-# Form-validation using Express js
+# Express js / Form validation
 How to run port
   
   <img src= "https://github.com/rence-scratch/form-validation/assets/114133634/bb8e177a-c906-4f1a-8ed6-481cc7859386" >
